@@ -11,7 +11,7 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: tru
+  cancel-in-progress: true
 
 env:
   NODE_VERSION: 18
