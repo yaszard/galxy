@@ -21,7 +21,7 @@ env:
 
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-lates
     steps:
       - uses: actions/checkout@v3
       - name: Setup Node.js
