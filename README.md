@@ -9,7 +9,7 @@ on:
     branches: [main, develop]
   workflow_dispatch:
 
-concurrency:
+concurrenc:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
