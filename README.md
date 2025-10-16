@@ -1,5 +1,5 @@
 # .github/workflows/ci-cd.yml
-name: 🚀 CI/CD Pipelinepp
+name: 🚀 CI/CD Pipeline
 on:
   push:
     branches: [main, develop]
